@@ -19,6 +19,11 @@
   padding-left: 0px;
 }
 
+.laatste-nieuws ul li a:hover {
+  color: #1a268d !important;
+  text-decoration: underline !important;
+}
+
 .laatste-nieuws ul li a {
   background-image: none !important;
   padding: 10px 0px !important;

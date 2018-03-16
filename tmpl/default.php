@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 
 <div class="laatste-nieuws">
   <div class="laatste-nieuws-title" style="background-color: <?PHP echo $color; ?>">
-    <i class="icon-comment"></i> <?PHP echo $title; ?>
+    <i class="icon-bullhorn"></i> <?PHP echo $title; ?>
   </div>
   <div class="laatste-nieuws-content">
 		<ul class="<?php echo $moduleclass_sfx; ?>">
