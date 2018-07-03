@@ -20,7 +20,7 @@ defined('_JEXEC') or die;
 			<li itemscope itemtype="https://schema.org/Article">
 				<a href="<?php echo $item->link; ?>" itemprop="url">
 					<span class="date">
-						<?php echo JHtml::_('date', $item->created, 'j F, H:i') ?>
+						<?php echo JHtml::_('date', $item->created, 'd F, H:i') ?>
 					</span>
 					<span itemprop="name">
 						<?php echo $item->title; ?>
